@@ -54,7 +54,7 @@ Update `settings.py` with your PostgreSQL credentials:
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'expense_db',
+        'NAME': 'expenses_db',
         'USER': 'expense_user',
         'PASSWORD': 'yourpassword',
         'HOST': 'localhost',
